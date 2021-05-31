@@ -2,15 +2,25 @@ html,
 body {
   padding: 0;
   margin: 0;
+  background-color: rgb(255, 255, 255);
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+  border: 10px rgb(121, 129, 134) solid;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
-
-a {
-  color: inherit;
-  text-decoration: none;
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
 }
-
-* {
-  box-sizing: border-box;
+.name {
+  color: rgb(0, 0, 0);
+}
+.job {
+  color: rgb(121, 129, 134);
 }
