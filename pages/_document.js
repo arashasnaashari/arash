@@ -19,7 +19,7 @@ class MyDocument extends Document {
             />
             <meta name="description" content="Description" />
             <meta name="keywords" content="Keywords" />
-            <title>bookgram</title>
+            <title>Arash.Esnaashari</title>
           </Head>
         </Head>
         <body>

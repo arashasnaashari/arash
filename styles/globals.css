@@ -1,14 +1,31 @@
-html,
-body {
+@import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Julee&display=swap");
+.chel {
+  padding-left: 40px;
+}
+.bist {
+  padding-left: 20px;
+}
+html {
+  -webkit-user-select: none; /* Safari */
+  -ms-user-select: none; /* IE 10 and IE 11 */
+  user-select: none; /* Standard syntax */
+  background-color: #0a493b;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='48' height='48' viewBox='0 0 48 48'%3E%3Cg fill='%23000000' fill-opacity='0.4'%3E%3Cpath d='M12 0h18v6h6v6h6v18h-6v6h-6v6H12v-6H6v-6H0V12h6V6h6V0zm12 6h-6v6h-6v6H6v6h6v6h6v6h6v-6h6v-6h6v-6h-6v-6h-6V6zm-6 12h6v6h-6v-6zm24 24h6v6h-6v-6z'%3E%3C/path%3E%3C/g%3E%3C/svg%3E");
   padding: 0;
   margin: 0;
-  background-color: rgb(255, 255, 255);
   height: 100vh;
   width: 100vw;
-  overflow: hidden;
-  border: 10px rgb(121, 129, 134) solid;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  overflow-x: hidden;
+  animation: color 20s 4s infinite;
+}
+body {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+  justify-content: center;
 }
 .container {
   display: flex;
@@ -18,9 +35,82 @@ body {
   justify-content: center;
   margin: 0 auto;
 }
-.name {
-  color: rgb(0, 0, 0);
+.vscode {
+  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1), 0 2px 0 rgba(0, 0, 0, 0.1),
+    0 3px 0 rgba(0, 0, 0, 0.1), 0 4px 0 rgba(0, 0, 0, 0.1),
+    0 5px 0 rgba(0, 0, 0, 0.1), 0 6px 1px rgba(0, 0, 0, 0.1),
+    0 0 5px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.3),
+    0 3px 5px rgba(0, 0, 0, 0.2), 0 5px 10px rgba(0, 0, 0, 0.25),
+    0 10px 10px rgba(0, 0, 0, 0.2), 0 20px 20px rgba(0, 0, 0, 0.15);
+  padding: 30px;
+  border-radius: 10px;
+  width: 60vw;
+  height: 100%;
+  font-weight: 100;
+  font-size: 17px;
+  background-color: #252024;
+  background-image: url("data:image/svg+xml,%3Csvg width='6' height='6' viewBox='0 0 6 6' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23332f38' fill-opacity='0.4' fill-rule='evenodd'%3E%3Cpath d='M5 0h1L0 6V5zM6 5v1H5z'/%3E%3C/g%3E%3C/svg%3E");
+  font-family: "Source Code Pro", monospace;
+  color: white;
 }
-.job {
-  color: rgb(121, 129, 134);
+.name3 {
+  color: white;
+  font-size: 60px;
+  font-weight: bolder;
+  font-family: "Julee", cursive;
+  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.1), 0 2px 0 rgba(0, 0, 0, 0.1),
+    0 3px 0 rgba(0, 0, 0, 0.1), 0 4px 0 rgba(0, 0, 0, 0.1),
+    0 5px 0 rgba(0, 0, 0, 0.1), 0 6px 1px rgba(0, 0, 0, 0.1),
+    0 0 5px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.3),
+    0 3px 5px rgba(0, 0, 0, 0.2), 0 5px 10px rgba(0, 0, 0, 0.25),
+    0 10px 10px rgba(0, 0, 0, 0.2), 0 20px 20px rgba(0, 0, 0, 0.15);
+}
+@keyframes color {
+  0% {
+    background-color: #0a493b;
+  }
+  20% {
+    background-color: #0c2447;
+  }
+  40% {
+    background-color: #2e0638;
+  }
+  60% {
+    background-color: #aa2345;
+  }
+  80% {
+    background-color: #b60b0b;
+  }
+}
+html {
+  --scrollbarBG: #252024;
+  --thumbBG: #4d4f50;
+}
+body::-webkit-scrollbar {
+  width: 11px;
+}
+body {
+  scrollbar-width: thin;
+  scrollbar-color: var(--thumbBG) var(--scrollbarBG);
+}
+body::-webkit-scrollbar-track {
+  background: var(--scrollbarBG);
+}
+body::-webkit-scrollbar-thumb {
+  background-color: var(--thumbBG);
+  border-radius: 6px;
+  border: 3px solid var(--scrollbarBG);
+}
+@media only screen and (max-width: 800px) {
+  .vscode {
+    width: 95vw;
+    padding: 10px;
+    font-size: 12px;
+  }
+  .chel {
+    padding-left: 15px;
+  }
+  .bist {
+    padding-left: 5px;
+  }
 }
