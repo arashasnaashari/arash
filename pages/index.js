@@ -5,7 +5,7 @@ export default function Home() {
       <div className="vscode">
         <p><span style={{color:"#569cd6"}}>function</span> <span style={{color:"green"}}>Man</span>() {'{'} </p>
           <p className="bist"><span style={{color:"#569cd6"}}>this</span>.<span style={{color:"#9CDCFE"}}>name</span> = <span style={{color:"#ce9178"}}>"arash"</span>;</p>
-          <p className="bist"><span style={{color:"#569cd6"}}>this</span>.<span style={{color:"#9CDCFE"}}>age</span> = <span style={{color:"#b5cea8"}}>17</span>; </p>
+          <p className="bist"><span style={{color:"#569cd6"}}>this</span>.<span style={{color:"#9CDCFE"}}>age</span> = <span style={{color:"#b5cea8"}}>18</span>; </p>
           <p className="bist"><span style={{color:"#569cd6"}}>this</span>.<span style={{color:"#9CDCFE"}}>roles</span> = [<span style={{color:"#ce9178"}}>'son'</span>,<span style={{color:"#ce9178"}}>'brother'</span>,<span style={{color:"#ce9178"}}>'student'</span>]</p>
           <p className="bist"><span style={{color:"#569cd6"}}>this</span>.<span style={{color:"#9CDCFE"}}>hobbies</span> = [<span style={{color:"#ce9178"}}>'listening'</span>,<span style={{color:"#ce9178"}}>'watching'</span>,<span style={{color:"#ce9178"}}>'learning'</span>]</p>
           <p className="bist"><span style={{color:"#569cd6"}}>this</span>.<span style={{color:"#DCDCAA"}}>as_a_Devops</span> = <span style={{color:"#569cd6"}}>function</span> () {'{'}</p>
