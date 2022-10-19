@@ -17,7 +17,7 @@ html {
   height: 100vh;
   width: 100vw;
   overflow-x: hidden;
-  animation: color 20s 4s infinite;
+  /* animation: color 20s 4s infinite; */
 }
 body {
   margin: 0 auto;
